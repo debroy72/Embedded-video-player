@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#video-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+video {
+    width: 100%;
+}
+
+#caption-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.caption-word {
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    color: rgb(0, 200, 255);
+}
+
+
+.caption-line {
+    margin-bottom: 10px; /* Adjust as needed to separate lines */
+}
+
+.caption-word {
+    display: none;
+    cursor: pointer;
+}
+
+.caption-word.active-caption {
+    background-color: yellow; /* Adjust as needed for highlighting */
+}
